@@ -5,7 +5,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://todobackend2-1.onrender.com/api/todos';
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
@@ -191,7 +191,7 @@ function TodoList() {
                     {editingTodo ? (
                       <>
                         <i className="bi bi-check2-circle"></i>
-                        Update
+                        
                       </>
                     ) : (
                       <>
